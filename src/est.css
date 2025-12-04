@@ -1,0 +1,47 @@
+.padre{
+    background-color: beige;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "logo titulo titulo"
+                         "logo opcion opcion"
+                         "logo footer footer";
+}
+.titulo{
+    background-color: blue;
+    grid-area: titulo;
+    color: aliceblue;
+    
+}
+.logo{
+    background-color: aqua;
+    grid-area: logo;
+}
+.opcion{
+    background-color: brown;
+    grid-area: opcion;
+}
+.footer{
+    background-color: red;
+    grid-area: footer;
+}
+.cartilla{
+    width: 500px;
+    background-color: antiquewhite;
+    border-color: black;
+    display: flex;
+    margin: 10px;
+}
+.pag1{
+    display: flex;
+    
+}
+.enlace{
+    margin: 0px 0px 0px 30px;
+    background-color: blueviolet;
+    height: 200px;
+    width: 300px;
+}
+.imgcard{
+    border-radius: 50%;
+}
